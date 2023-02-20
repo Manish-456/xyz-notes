@@ -10,20 +10,22 @@ const Public = () => {
       </header>
       <main className="public__main">
         <p>
-          Located in Beautiful Foo City, XYZ Company provides a trained
-          staff ready to meet your tech needs.
+          Welcome to XYZ Tech, where we are committed to providing innovative
+          technology solutions to meet the needs of businesses and individuals
+          alike. Our team of experts is dedicated to creating cutting-edge
+          products and services that will help you achieve your goals and stay
+          ahead of the curve in today's rapidly evolving digital landscape.
         </p>
         <address className="public_addr">
-            XYZ Tech company <br />
-            555 FOO City <br/>
-            Bar City, BTCH 12345 <br/>
-            <a href="tel:+15555555">+27 000-5678</a>
+          XYZ Tech company <br /> <br />
+          Bar City, BTCH 12345 <br />
+          <a href="tel:+15555555">+27 000-5678</a>
         </address>
-        <br/>
+        <br />
         <p>Owner : Manish Tamang</p>
       </main>
       <footer>
-        <Link to={'/login'}>Employee Login</Link>
+        <Link to={"/login"}>Employee Login</Link>
       </footer>
     </section>
   );
